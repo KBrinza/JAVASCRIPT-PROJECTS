@@ -40,3 +40,13 @@ var Sent2 = "****and this is the end of the string****";
 
 //Concatenate and Expression combo!//
 document.write(Sent1 + Sent2)
+
+
+//ON MOUSE EVENT//
+function mouseDown() {
+    document.getElementById("p1").style.color = "red";
+  }
+  
+  function mouseUp() {
+    document.getElementById("p1").style.color = "green";
+  }
