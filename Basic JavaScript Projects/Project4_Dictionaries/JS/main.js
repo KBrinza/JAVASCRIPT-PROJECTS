@@ -11,6 +11,7 @@ function my_Dictionary() {
 }
 
 //dictionary where two pairs have identical keys//
+//the "sound" ordered last is what I noticed pops up//
 function Dictionary() {
     var Animal = {
         Species: "Dog",
