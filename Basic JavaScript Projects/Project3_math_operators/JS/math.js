@@ -68,6 +68,10 @@ window.alert(Math.random());
 
 //number between 0 and 100//
 window.alert(Math.random() * 100);
+//applying random to a button//
+function random(){
+    document.getElementById("random").innerHTML = Math.random() * 100;
+}
 
 //MATH OBJECT CHALLENGE//
 function demo(){
