@@ -8,7 +8,8 @@ document.write(typeof 3)
 document.write(typeof true)
 
 //TYPE COERCION//
-document.write("10" + 5) //number 5 is tacked onto the string “10”)//
+//number 5 is tacked onto the string “10”)//
+document.write("10" + 5)
 
 //NOT A NUMBER//
 function my_function() {
