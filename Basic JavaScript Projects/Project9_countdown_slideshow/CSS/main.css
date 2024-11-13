@@ -1,5 +1,9 @@
 * {box-sizing:border-box}
 
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;} 
+
 /*Slideshow container*/
 .slideshow-container {
   max-width: 1000px;
@@ -11,6 +15,8 @@
 .mySlides {
   display: none;
 }
+
+#slide1 {display:block}
 
 /*Next & previous buttons*/
 .prev, .next {
