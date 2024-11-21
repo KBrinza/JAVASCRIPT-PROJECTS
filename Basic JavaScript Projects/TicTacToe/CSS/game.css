@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: default;
+}
+
+/*This container includes table and canvas*/
+.center-container {
+    width: 608px; /*sets container width*/
+    margin: 0 auto; /*centers container*/
+    margin-top: 50px; /*sets top margin*/
+}
+
+table {
+    border-collapse: collapse; /*collapses table into one border*/
+    border-style: hidden; /*hides table's outter border*/
+}
+
+td {
+    cursor: pointer; /*changes cursor to index finger when hovering over td elements*/
+    border: 10px solid rgba(8, 105, 8, 0.8); /*sets table border style*/
+    padding: 0px; /*removes defualt padding*/
+    width: 200px;
+    height: 200px;
+    filter: contrast(3);
+}
+
+canvas {
+    position: absolute; /*sets position of canvas to top left of container*/
+    z-index: 10; /*places canvas on top of table*/
+    pointer-events: none; /*makes canvas invisible*/
+}

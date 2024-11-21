@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ARROW FUNCTION</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <!--without the use of arrow function-->
+    <p id="demo"></p>
+
+    <script>
+        let hello = "";
+        hello = function () {
+            return "Hello World!";
+        }
+        document.getElementById("demo").innerHTML = hello();
+    </script>
+
+    <!--using the arrow function-->
+
+    <p id="demo2"></p>
+
+    <script>
+    let hello2 = "";
+    hello = () => "World with arrows!";
+    document.getElementById("demo2").innerHTML = hello();
+</script>
+
+</body>
+
+</html>
