@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang=“en”>
+<head> 
+<title>Photo Zoom</title>
+<meta charset="UTF-8">
+<link href="photo_zoom.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="photo_zoom.js" type="text/javascript"></script>
+</head>
+<body>
+<!--NAVBAR--> 
+<nav class="nav-bar"> 
+  <ul>
+    <a href="#ImageLoop">
+      <li>IMAGE LOOP CHALLENGE!</li>
+    </a>
+    <a href="#Links">
+      <li>BOOKMARK CHALLENGE!</li>
+    </a>
+	</nav>
+<!--photo zoom-->
+<h1 id="ImageLoop">IMAGE LOOP CHALLENGE!</h1>
+<div class="single-featured-image-header">
+  <img src="images/duomo.jpg" alt="Duomo in Milan, Itly.">
+</div>
+<h1 id="Links">BOOKMARK CHALLENGE!</h1>
+
+<p>Various links if you're interested in traveling to Italy:
+<br>
+  <a class="links" href="https://travel.usnews.com/Milan_Italy/">Top 10 best things to do in Milan</a><br>
+  <a class="links" href="https://www.cntraveler.com/gallery/best-things-to-do-in-rome">What to do in Rome</a><br>
+  <a class="links" href="https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Italy.html">U.S. State Department on traveling to Italy</a>
+</p>
+
+<h1>SLIDESHOW CHALLENGE</h1>
+<div id="slideshow">
+  <div>
+    <img id="slideshowPIC" src="https://media.istockphoto.com/id/539115110/photo/colosseum-in-rome-and-morning-sun-italy.jpg?s=612x612&w=0&k=20&c=9NtFxHI3P2IBWRY9t0NrfPZPR4iusHmVLbXg2Cjv9Fs=" alt="Colosseum in Rome.">
+  </div>
+  <div>
+    <img id="slideshowPIC" src="https://www.state.gov/wp-content/uploads/2019/04/shutterstock_720444505v2-2208x1406-1.jpg" alt="Venice canal.">
+  </div>
+</div>
+
+<!-- A button to open the popup form -->
+<button class="open-button" onclick="openForm()">Contact us!</button>
+
+<!-- The form -->
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h2>CONTACT US!</h2>
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="email" required>
+
+    <button type="submit" class="btn">SUBMIT</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+html {
+    font-family: "Avenir Next", Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input {
+    padding-top: 30px;
+    width: 500px;
+    height: 60px;
+    font-size: 40px;
+    border: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+li {
+    text-align: left;
+    font-size: 40px;
+    list-style: none;
+    margin: 0;
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+/*FOOTER*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(101, 226, 43);
+    color: rgb(46, 5, 5);
+    text-align: center;
+ }
+
+ /*Add border line to top of footer*/
+#footer-sections {
+    border-top: 2px solid rgb(0, 0, 0);
+}

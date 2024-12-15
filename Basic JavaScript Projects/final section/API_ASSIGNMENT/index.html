@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang=“en”>
+<head> 
+<title>API ASSIGNMENT</title>
+<meta charset="UTF-8">
+<script src="main.js"></script>
+</head>
+<body>
+<h1>Generate a random number fact</h1>
+<button onclick="getNumberFact()">Display a Fact!</button>
+<p id="factDisplay"></p>
+
+<hr>
+
+<h1>Cat Facts</h1>
+<button onclick="getCatFact()">Display a cat fact!</button>
+<p id="catFactDisplay"></p>
+
+<hr>
+
+<h1>Translations</h1>
+<button onclick="translation()">Click to translate to Catalan</button>
+<p id="translationDisplay"></p>
+
+
+<div class="ftembed">
+    <script src="https://funtranslations.com/extensions/embed/v1/funtranslations.embed.js"></script>
+    <script>
+         FunTranslations.Embed.render({url:  '/catalan' , translator:  'catalan'  });
+    </script>
+   </div>
+
+
+<hr>
+
+<h1>Dog CEO's</h1>
+<button onclick="getDogCEO()">Click for dog pic</button>
+<img id="">
+</body>
+</html>

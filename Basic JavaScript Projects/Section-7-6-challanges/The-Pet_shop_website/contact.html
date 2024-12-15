@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang=“en”>
+<head> 
+<title>Contact Us</title>
+<meta charset="UTF-8">
+<meta name="description" content="Contact us for more information">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="CSS/style.css" rel="stylesheet">
+<script src="javascript.js"></script>
+</head>
+<body>
+	<script>
+		document.body.classList.add('fade-out');
+		//adds event listener for fade effect//
+		window.addEventListener('DOMContentLoaded', () => {
+		document.body.classList.remove('fade-out');
+		});
+	</script>
+	<!--NAVBAR--> 
+	<nav class="nav-bar"> 
+	<ul>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
+	</ul>
+	</nav>
+	<!--HEADER-->
+	<header>
+		<div>
+			<h1 style="font-size:10vw;">Contact Us!</h1>
+		</div>
+	</header>
+	<!--FORM-->
+	<section>
+		<div>
+			<h3 style="font-size:5vw;">Please provide your contact information 
+				and a brief message about your inquiry.
+			</h3>
+			<div>
+				<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+					<input type="text" name="firstname" placeholder="First Name">
+					<input type="text" name="lastname" placeholder="Last Name"><br>
+					<input type="email" name="email" placeholder="Email"><br>
+					<input type="tel" name="pnone" placeholder="Phone Number"><br>
+					<input type="checkbox" id="newsletter">
+					<label for="Newsletter">Would you like to receive our monthly newsletter?</label><br>
+					<textarea name="message" placeholder="Type message here"></textarea><br>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</section>
+	<!--FOOTER-->
+	<footer>
+		<table>
+			<tr>
+				<td>
+					<p>The Pet Shop! &copy;</p>
+				<td> 
+					<p>123 Square Ave.</p>
+					<p>Portland, OR 97204</p>
+				</td>
+				<td>
+					<p>503-234-3966</p>
+				</td>
+			</tr>
+		</table>
+	</footer>
+</body>
+</html>
