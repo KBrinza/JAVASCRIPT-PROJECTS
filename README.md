@@ -6,6 +6,8 @@ PROJECTS:
   * Pizza Menu
   * Tic-Tac-Toe Game
   * Calculator
+  * ACADEMY CINEMAS
+  * SIMPLE RECIPES
 
 PIZZA MENU
 This project is a menu used to order pizza with various topping selections. It then takes the inputted information and calculates a price for the order.
