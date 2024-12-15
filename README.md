@@ -23,5 +23,5 @@ SIMPLE RECIPES
 Added javascript elements to previously built recipe website from basic HTML/CSS repository.
 
 
-* Projects 1-10 are basic javascript drills *
+* Projects 1-10 are basic javascript drills 
   
