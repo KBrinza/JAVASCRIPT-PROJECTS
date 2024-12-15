@@ -23,5 +23,5 @@ SIMPLE RECIPES
 Added javascript elements to previously built recipe website from basic HTML/CSS repository.
 
 
-* Projects 1-10 are basic javascript drills 
+* Files and folders listed as Projects 1-10, AJAX, JQuery, REACT, Final_Section, etc. are basic javascript drills and not actual projects. 
   
