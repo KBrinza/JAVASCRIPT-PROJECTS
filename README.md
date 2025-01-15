@@ -1,27 +1,31 @@
-INTRODUCTION: This repository is home to various assignments for my Intro to JavaScript courses.
+<h1>INTRODUCTION</h1> 
+This repository is home to various assignments for my Intro to JavaScript courses.
 
-HIGHLIGHTS: JavaScript HTML5 CSS
+<h2>HIGHLIGHTS</h2> 
+JavaScript<br>
+HTML5<br>
+CSS
 
-PROJECTS: 
+<h2>PROJECTS</h2> 
   * Pizza Menu
   * Tic-Tac-Toe Game
   * Calculator
   * ACADEMY CINEMAS
   * SIMPLE RECIPES
 
-PIZZA MENU
+<h2>PIZZA MENU</h2>
 This project is a menu used to order pizza with various topping selections. It then takes the inputted information and calculates a price for the order.
 
-TIC-TAC-TOE GAME
+<h2>TIC-TAC-TOE GAME</h2>
 The user plays a classic game of Tic-Tac-Toe against the computer. The game randomly selects scquares based on what the user has already chosen. 
 
-CALCULATOR
+<h2>CALCULATOR</h2>
 Basic 4-function calculator.
 
-ACADEMY CINEMAS
+<h2>ACADEMY CINEMAS</h2>
 Added javascript elements to previously built movie website from basic HTML/CSS repository.
 
-SIMPLE RECIPES
+<h2>SIMPLE RECIPES</h2>
 Added javascript elements to previously built recipe website from basic HTML/CSS repository.
 
 
