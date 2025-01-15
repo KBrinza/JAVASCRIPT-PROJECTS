@@ -27,7 +27,7 @@ Added javascript elements to previously built movie website from basic HTML/CSS 
 
 <h2>SIMPLE RECIPES</h2>
 Added javascript elements to previously built recipe website from basic HTML/CSS repository.
-
-
-* Files and folders listed as Projects 1-10, AJAX, JQuery, REACT, Final_Section, etc. are basic javascript drills and not actual projects. 
+<br>
+<br>
+<b><i>Files and folders listed as Projects 1-10, AJAX, JQuery, REACT, Final_Section, etc. are basic javascript drills and not actual projects.</i></b>
   
